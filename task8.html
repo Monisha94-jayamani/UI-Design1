@@ -14,6 +14,7 @@ header {
   padding: 33px;
   text-align: center;
   color: white;
+  font-family:Florence, cursive;
 }
 i{
     float:left;
@@ -31,6 +32,42 @@ margin-right:0px;
 font-family:Florence, cursive;
 font-size:24px
 }
+.row:after{
+content:"";
+display:table;
+clear:both;
+}
+.column{
+float:left;
+width:28%:
+padding:10px;
+height:300px;
+}
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  
+  height: 500px; /* only for demonstration, should be removed */
+}
+.column1{
+float :left;
+padding:20px;
+width:25%;
+}
+.column2{
+float :left;
+padding:20px;
+width:55%;
+}
+.column2 p{
+line-height:9px;
+}
 
 </style>
 <body>
@@ -45,15 +82,89 @@ font-size:24px
 <h7>Services</h7>
 <h7>Contacts</h7>
 </span>
-</header>
-<div class="div1">
-<h1 style="color:orange">Beauty center
-<span style="color:black">keep your perfect look</span>
-<h1>
-<div class="column1">
+<h1 style="color:orange;float:left; margin-top:108px;width:100%">Beauty  <span style="color:white"> Center</span>
+<span style="color:white">keep your perfect look</span>
+</h1>
+<div class="row">
+<div class="column" style="width:30%">
+<h6>our capabilities</h6>
+<p>London is the capital city of England. </p>
+<p>It is the most populous city:</p>
+<ul  style="list-style-type:none;">
+<li > &#62Doloremque laudantium totam</li>
+<li>  &#62Aperiam eaque ipsa quae illo invertore</li>
+<li> &#62Veritatis et quasi architecto beatae</li>
+<li> &#62Vitae dicta sunt explicabo</li>
+</ul>
+</div>
+<div class="column" style="width:30%">
+<h6>our capabilities</h6>
+<p>London is the capital city of England. </p>
+<p>It is the most populous city:</p>
+
+<p>Doloremque laudantium totam</li>
+<p> Aperiam eaque ipsa quae illo invertore</p>
+<p>Veritatis et quasi architecto beatae</p>
 
 </div>
+<div class="column" style="width:30%">
+<h6>our capabilities</h6>
+<p>London is the capital city of England. </p>
+<p>It is the most populous city:</p>
+<ul  style="list-style-type:none;">
+<li > &#62Doloremque laudantium totam</li>
+<li>  &#62Aperiam eaque ipsa quae illo invertore</li>
+<li> &#62Veritatis et quasi architecto beatae</li>
+<li> &#62Vitae dicta sunt explicabo</li>
+</ul>
 </div>
+</div>
+
+</header>
+<section  style="background-color:white">
+<article>
+<h2>A Few words About Us</h2>
+<div class="row">
+<div class="column1">
+<img src="girl.jpg" style="width: 229px; height: 189px;padding: 9px 9px">
+</div>
+<div class="column2">
+<h3> At vero eos at accusamus etiusto dignissimos</h3>
+<p>ducimus qui blanditis praesentium voluptation deleniti</p>
+<p>atque corrupti qous dolores et quas molestias excepturi</p>
+<p>ducimus qui blanditis praesentium voluptation deleniti</p>
+<p>atque corrupti qous dolores et quas molestias excepturi</p>
+<p>rum fuga harum quidem rerum facilis</p>
+</div>
+</div>
+<div class="row" >
+<h3 style="line-height:9px">Omnis Voluptas assumenda est,omnis dolor repellendus.<span >
+Temporibus autem quibusdam et aut</span>
+</h3>
+<p style="line-height:9px">officiss debitis at rerum necessitatibus saepe eveniet ut voluptaters repundiande sint et moles-</p>
+<p style="line-height:9px">tiae non recusandae itaque earum rerum hic tenetur.</p>
+</div>
+<div class="row">
+<div class="column1">
+<img src="girl.jpg" style="width: 229px; height: 189px;padding: 9px 9px">
+</div>
+<div class="column2">
+<h3> At vero eos at accusamus etiusto dignissimos</h3>
+<p>ducimus qui blanditis praesentium voluptation deleniti</p>
+<p>atque corrupti qous dolores et quas molestias excepturi</p>
+<p>ducimus qui blanditis praesentium voluptation deleniti</p>
+<p>atque corrupti qous dolores et quas molestias excepturi</p>
+<p>rum fuga harum quidem rerum facilis</p>
+</div>
+</div>
+</article>
+<aside>
+<h3>hello world</h3>
+
+</aside>
+</section>
+
+
 
 
 
