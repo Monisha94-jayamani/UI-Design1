@@ -1,0 +1,89 @@
+body{
+font-family:Florence, cursive;
+}
+header {
+  background-color: black;
+  padding: 33px;
+  text-align: center;
+  color: white;
+  font-family:Florence, cursive;
+}
+i{
+    float:left;
+     padding: 10px 60px;
+     font-size:24px;
+     outline:white;
+}
+.as h7{
+padding: 0px 20px;s
+}
+.as{
+float:right;
+margin-right:0px; 
+font-family:URW Chancery L, cursive,italics;
+//font-family:Florence, cursive;
+font-size:24px
+}
+.row:after{
+content:"";
+display:table;
+clear:both;
+}
+p{
+line-height:9px;
+font-family:monospace;
+}
+.column{
+float:left;
+width:30%:
+height:300px;
+
+}
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 60%;
+  
+  height: 650px; /* only for demonstration, should be removed */
+}
+
+.column1{
+float :left;
+padding:20px;
+width:30%;
+}
+.column2{
+float :left;
+padding:20px;
+width:55%;
+}
+.column2 p{
+line-height:9px;
+}
+footer{
+height:100px;
+width:100%;
+}
+.beauty{
+float:left;
+ margin-top:108px;
+width:100%;
+color:orange;
+margin-left:-252px;
+}
+.fa fa-home{
+margin-left:63px
+}
+.about{
+color:orange
+}
+.girlimage{
+width: 229px; 
+height: 189px;
+padding: 9px 9px
+}
