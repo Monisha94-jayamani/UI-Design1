@@ -1,0 +1,122 @@
+body{
+font-family:Florence, cursive;
+background-color:black;
+margin-left:100px;
+margin-right:120px;
+}
+header {
+  background-color: black;
+  padding: 33px;
+  
+  color: white;
+  font-family:Florence, cursive;
+}
+i{
+    float:left;
+     padding: 10px 40px;
+     font-size:24px;
+     outline:white;
+}
+.as h7{
+padding: 0px 15px;
+}
+.as{
+float:right;
+margin-right:0px; 
+font-family:URW Chancery L, cursive,italics;
+//font-family:Florence, cursive;
+font-size:24px
+}
+.row:after{
+content:"";
+display:table;
+clear:both;
+}
+p{
+line-height:9px;
+font-family:monospace;
+}
+.column{
+float:left;
+width:381px:
+height:300px;
+
+}
+.column ul{
+float:left;
+margin-left:-41px
+}
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 65%;
+  
+  height: 650px; /* only for demonstration, should be removed */
+}
+#t{
+width:375px;
+}
+span,p,.column h6{
+line-height:9px
+}
+.column1{
+float :left;
+padding:0px;
+width:40%;
+}
+.column2{
+float :left;
+padding:0px;
+width:60%;
+}
+.column2 p{
+line-height:9px;
+}
+footer{
+height:100px;
+width:100%;
+}
+.beauty{
+float:left;
+ margin-top:108px;
+width:100%;
+color:orange;
+
+}
+.fa fa-home{
+margin-left:63px
+}
+.about{
+color:orange
+}
+.girlimage{
+width: 229px; 
+height: 189px;
+padding: 9px 9px
+}
+.fb{
+width:63px;border-radius:50%;
+float:right;
+}
+.column ul{
+color:orange;
+}
+.tweet{
+width:48px;
+float:right;
+}
+.drive{
+width:48px;
+float:right;
+margin-left:23px
+}
+footer{
+style="background-color:black;color:white;
+}
+
+
