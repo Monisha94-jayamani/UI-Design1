@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+margin-left:88px;
+margin-right:80px;
+}
+*{
+  box-sizing: border-box;
+}
+.columna {
+  float: left;
+  width: 26%;
+  
+}
+.column1{
+  float: left;
+  width: 101px;
+padding-top: 13px;
+  
+}
+.column2{
+  float: left;
+  width: 101px;
+padding-top: 0px;
+  
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.columnb{
+width:48%;
+background-color:blue;
+height: 123px;
+}
+.columnc{
+width:26%;
+background-color:blue;
+height: 123px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ 
+  text-align: center;
+  background-color: #f1f1f1;
+  height: 123px;
+  width:204px;
+}
+.img1{
+width:73px;
+
+}
+.img2{
+width:717px;
+height:277px;
+}
+
+.news{
+width:131px;
+}
+article{
+width:717px;
+float:left;
+}
+aside{
+width:407px;
+float:left;
+margin-left:21px;
+
+}
+.a,right{
+width:357px;
+}
+#i{
+padding-top:-11px;
+}
+h3{
+padding:0px;
+}
+
+.c {
+  float: left;
+  width: 357px;
+  padding: 10px;
+  height: 300px; 
+}
+.d {
+  float: left;
+  width: 157px;
+  padding: 10px;
+  height: 300px; 
+  margin-top:0px;
+}
+
+
+.r:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#m{
+margin-top:0px;
+}
+#n{
+margin-top:21px;
+}
+.border{
+border-top:1px solid black;
+ border-bottom:1px solid black;
+}
+.borderfull{
+border:1px solid black;
+padding :10px;
+
+}
+.e{
+width:730px;
+}
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.america{
+width:350px;
+height:300px;
+
+}
+#am
+{
+margin-left:21px;
+}
+footer{
+background-color:black;
+color:white;
+margin-top:20px
+}
+</style>
+<body>
+<header>
+<div class="row">
+<div class="columna">
+<div class="card">
+<div class="row">
+<div class="column1">
+<img src="trump.jpg" alt="trump" class="img1">
+<p id="i">trump visiting India</p>
+</div>
+<div class="column2">
+<p id="i">USA wish to starts a massive business in India visiting India.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="columnb">
+<h1> The rising sun</h1>
+</div>
+</header>
+<div style="border-top:1px solid black; border-bottom:1px solid black;">
+<pre> Wednesday October 24.2020.  Chennai India                        wwww.guvi.in                              Total 32/price 3.00/pages of 2/36.</pre>
+</div>
+<section>
+<article>
+<h1>ELECTRIC CARS: THE FUTURE </h1>
+<h1>OF TRANSPORTATION</h1>
+<img src="girls.webp" class="img2">
+<bold>Cars are also called automobiles or motor vehicles. ... Some cars are specially designed and built to be used for racing. ..</bold>
+<p>
+A vehicle (from Latin: vehiculum) is a machine that transports people or cargo. 
+Vehicles include ... The line originally used wooden rails and a hemp haulage rope
+has some background knowledge about how a car runs and the role of the battery. ELLs and ...Ivannia Soto-Hinman
+Compressed gas motors have been used on some vehicles experimentally. 
+</p>
+<p>
+A vehicle (from Latin: vehiculum) is a machine that transports people or cargo. 
+Vehicles include ... The line originally used wooden rails and a hemp haulage rope
+Compressed gas motors have been used on some vehicles experimentally. 
+</p>
+<PRE>                                                                                john barrey</pre>
+ <div class="border">
+
+<div class="r">
+  <div class="c" >
+    <h3>MARS IS NEAR SATURNSS NAASA</h3>
+<h3>WORLD FIRST UNDERWATER </h3>
+<h3>HOTEL VILLA</h3>
+  <div class="r" >
+ 
+  <div class="d" >
+    <img src="news.jfif" class="news">
+  </div>
+   <div class="d" >
+   <p id="m">
+   The ancient Egyptians named the planet Her Descher meaning the red one. 
+Before  exploration. 
+  </p>
+  </div>
+  
+  </div>
+  
+  
+  
+  </div>
+  <div class="c">
+<h3>THE TALLEST STATUE IN THE  </h3>
+<h3>WORLD</h3>
+<BR>
+ <div class="r" >
+ 
+  <div class="d" >
+    <img src="columbia.jfif" class="news" id="n">
+  </div>
+   <div class="d" >
+   <p id="n">
+   The ancient Egyptians named the planet Her Descher meaning the red one. 
+    Before  exploration. 
+  </p>
+  </div>
+  </div>
+
+  </div>
+</div>
+
+<div class="r">
+  <div class="c" >
+    <h3>MARS IS NEAR SATURNSS NAASA</h3>
+<h3>WORLD FIRST UNDERWATER </h3>
+<h3>HOTEL VILLA</h3>
+  <div class="r" >
+ 
+  <div class="d" >
+    <img src="chinawall.jfif" class="news">
+  </div>
+   <div class="d" >
+   <p id="m">
+   The ancient Egyptians named the planet Her Descher meaning the red one. 
+Before  exploration. 
+  </p>
+  </div>
+  
+  </div>
+  
+  
+  
+  </div>
+  <div class="c">
+<h3>THE TALLEST STATUE IN THE  </h3>
+<h3>WORLD</h3>
+<BR>
+ <div class="r" >
+ 
+  <div class="d" >
+    <img src="food.jpeg" class="news" id="n">
+  </div>
+   <div class="d" >
+   <p id="n">
+   The ancient Egyptians named the planet Her Descher meaning the red one. 
+    Before  exploration. 
+  </p>
+  </div>
+  </div>
+
+  </div>
+</div>
+</div>
+<div class="r">
+<h3>TEN BOOKS TO CHECK OUT FOR NEW SYLLABUS</h3>
+<div class="d" >
+<img src="food.jpeg" class="news" >
+</div>
+<div class="e">
+<p>
+A textbook is a comprehensive compilation of content in a branch of study.
+ Textbooks are produced to meet the needs of educators, usually at educational institutions. 
+A textbook is a comprehensive compilation of content in a branch of study.
+ Textbooks are produced to meet the needs of educators, usually at educational
+Schoolbooks are textbooks and other books used in schools. ... 
+</p>
+<p>
+  The ancient Egyptians named the planet Her Descher meaning the red one. 
+    Before  exploration.
+</p>
+</div>
+</div>
+</article>
+<aside>
+<h3>columbia</h3>
+<img src="america.webp" class="america" id="am">
+<h3>A CHINESE COMPANY <H3>
+<H3>TO BUILD A FAKE</H3>
+<H3>MOON TO REPLACE</H3>
+<H3>THE CITY</H3>
+<p>us and chinese government systemtic views</p>
+<p>
+A textbook is a comprehensive compilation of content in a branch of study.
+ Textbooks are produced to meet the needs of educators, 
+A textbook is a comprehensive compilation of content in a branch of study.
+ Textbooks are produced to meet the needs of educators
+Schoolbooks are textbooks and other books used in schools. ... Flexbox is a new layout mode in CSS3.
+
+Use of flexbox ensures that elements behave predictably when the page layout must accommodate different screen sizes and different display devic
+</p>
+<p>
+Search Results
+Web results
+
+Federal government of the United States - Wikipediaen.wikipedia.org › wiki › Federal_government_of_the_...
+The federal government is composed of three distinct branches: legislative,y the U.S. Constitution in the Congress, 
+the president and the federal courts, respectively.
+</p>
+<div class="borderfull">
+<h3>METOO MARKET ELEMENT IN</H3>
+<H3>FINDS GETS BOOM</H3>
+<P>
+Federal government of the United States - Wikipediaen.wikipedia.org › wiki › Federal_government_of_the_...
+The federal government is composed of three distinct branches: legislative,y the U.S. Constitution in the Congress, 
+the president and the federal courts, respectively.
+</p>
+<h3>METOO MARKET ELEMENT IN</H3>
+<H3>FINDS GETS BOOM</H3>
+<P>
+Federal government of the United States - Wikipediaen.wikipedia.org › wiki › Federal_government_of_the_...
+The federal government is composed of three distinct branches: legislative,y the U.S. Constitution in the Congress, 
+the president and the federal courts, respectively.
+</p>
+<h3>METOO MARKET ELEMENT IN</H3>
+<H3>FINDS GETS BOOM</H3>
+<P>
+Federal government of the United States - Wikipediaen.wikipedia.org › wiki › Federal_government_of_the_...
+
+</p>
+</div>
+
+</aside>
+
+</section>
+<footer>
+<pre>follow us on youtube       faceook      twitter                                 our website:www.risingpeople.org   </pre>
+</footer>
+</body>
+</html>
