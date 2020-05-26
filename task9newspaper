@@ -22,7 +22,7 @@
 </div>
 </div>
 <div class="columnb">
-<h1> The rising sun</h1>
+<h1 > The Rising Sun</h1>
 </div>
 <div class="columnc">
 <div class="card">
@@ -44,8 +44,8 @@
 </div>
 <section>
 <article>
-<h1>ELECTRIC CARS: THE FUTURE </h1>
-<h1>OF TRANSPORTATION</h1>
+<h1 id="f">ELECTRIC CARS: THE FUTURE </h1>
+<h1 id="fe">OF TRANSPORTATION</h1>
 <img src="girls.webp" class="img2">
 <bold>Cars are also called automobiles or motor vehicles. ... Some cars are specially designed and built to be used for racing. ..</bold>
 <p>
@@ -167,7 +167,7 @@ Schoolbooks are textbooks and other books used in schools. ...
 </div>
 </article>
 <aside>
-<h3>columbia</h3>
+<h3>Politics</h3>
 <img src="america.webp" class="america" id="am">
 <h3>A CHINESE COMPANY <H3>
 <H3>TO BUILD A FAKE</H3>
