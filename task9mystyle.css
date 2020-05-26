@@ -1,0 +1,138 @@
+body{
+margin-left:88px;
+margin-right:80px;
+}
+*{
+  box-sizing: border-box;
+}
+.columna {
+  float: left;
+  width: 26%;
+  
+}
+.column1{
+  float: left;
+  width: 101px;
+padding-top: 13px;
+  
+}
+.column2{
+  float: left;
+  width: 101px;
+padding-top: 0px;
+  
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.columnb{
+width:48%;
+
+height: 123px;
+float:left;
+}
+.columnc{
+width:26%;
+float:left;
+padding-left:130px;
+height: 123px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ 
+  text-align: center;
+  background-color: #f1f1f1;
+  height: 123px;
+  width:204px;
+}
+.img1{
+width:73px;
+
+}
+.img2{
+width:717px;
+height:277px;
+}
+
+.news{
+width:131px;
+}
+article{
+width:717px;
+float:left;
+}
+aside{
+width:407px;
+float:left;
+margin-left:21px;
+
+}
+.a,right{
+width:357px;
+}
+#i{
+padding-top:-11px;
+}
+h3{
+padding:0px;
+}
+
+.c {
+  float: left;
+  width: 357px;
+  padding: 10px;
+  height: 300px; 
+}
+.d {
+  float: left;
+  width: 157px;
+  padding: 10px;
+  height: 300px; 
+  margin-top:0px;
+}
+
+
+.r:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#m{
+margin-top:0px;
+}
+#n{
+margin-top:21px;
+}
+.border{
+border-top:1px solid black;
+ border-bottom:1px solid black;
+}
+.borderfull{
+border:1px solid black;
+padding :10px;
+
+}
+.e{
+width:730px;
+}
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.america{
+width:350px;
+height:300px;
+
+}
+#am
+{
+margin-left:21px;
+}
+footer{
+background-color:black;
+color:white;
+margin-top:20px
+}
