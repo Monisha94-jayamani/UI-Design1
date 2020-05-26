@@ -33,12 +33,14 @@ padding-top: 0px;
 }
 .columnb{
 width:48%;
-background-color:blue;
+
 height: 123px;
+float:left;
 }
 .columnc{
 width:26%;
-background-color:blue;
+float:left;
+padding-left:130px;
 height: 123px;
 }
 .card {
@@ -157,6 +159,20 @@ margin-top:20px
 </div>
 <div class="columnb">
 <h1> The rising sun</h1>
+</div>
+<div class="columnc">
+<div class="card">
+<div class="row">
+<div class="column1">
+<img src="trump.jpg" alt="trump" class="img1">
+<p id="i">trump visiting India</p>
+</div>
+<div class="column2">
+<p id="i">USA wish to starts a massive business in India visiting India.</p>
+</div>
+</div>
+</div>
+</div>
 </div>
 </header>
 <div style="border-top:1px solid black; border-bottom:1px solid black;">
