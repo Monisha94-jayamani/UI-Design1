@@ -1,13 +1,14 @@
 body{
-font-family:Florence, cursive;
+font-family: Florence ,cursive;
 background-color:black;
 margin-left:100px;
 margin-right:120px;
 }
 header {
   background-color: black;
+ 
   padding: 33px;
-  
+ 
   color: white;
   font-family:Florence, cursive;
 }
@@ -24,8 +25,8 @@ padding: 0px 15px;
 float:right;
 margin-right:0px; 
 font-family:URW Chancery L, cursive,italics;
-//font-family:Florence, cursive;
-font-size:24px
+
+font-size:24px;
 }
 .row:after{
 content:"";
@@ -39,6 +40,7 @@ font-family:monospace;
 .column{
 float:left;
 height:300px;
+width:320px;
 
 }
 .column ul{
@@ -110,12 +112,24 @@ float:right;
 .drive{
 width:48px;
 float:right;
-margin-left:23px
+margin-left:23px;
 }
 footer{
-style="background-color:black;color:white;
+background-color:black;
+color:white;
+word-spacing: 2px;
 }
 .u{
 color:orange;
 }
-
+a{
+  color:white;
+}
+button{
+  background-color: blue;
+  color:white;
+  text-align: center;
+}
+.btn{
+  margin-top: 66px;
+}
