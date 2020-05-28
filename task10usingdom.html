@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>task 10 using dom</title>
+</head>
+<body id="mybody">
+
+<script>
+var a=document.getElementById("mybody");
+a.setAttribute("style","margin-left:130px;margin-right:190px;margin-top:140px;margin-bottom:130px;background-color: ghostwhite;box-shadow: -5px -5px 10px 0px #333;");
+
+
+var header=document.createElement("HEADER");
+header.setAttribute("style","width:100%;height:200px;color:black;text-align:center");
+var h1=document.createElement("h1");
+h1.innerHTML="THE RISING PEOPLE"
+header.appendChild(h1);
+document.body.appendChild(header);
+var b=document.createElement("div");
+b.setAttribute("style","border-top:1px solid black;border-bottom:1px solid black")
+var pre=document.createElement("pre");
+pre.innerHTML="Wednesday October 24.2020.  Chennai India                      wwww.guvi.in                   Total 32/price 3.00/pages of 2/36."
+b.appendChild(pre);
+document.body.appendChild(b);
+var s=document.createElement("section");
+var article=document.createElement("article");
+//article.style.width="50%";
+article.setAttribute("style","float:left;padding:20px;width:50%;border-bottom:1px solid black");
+//article.setAttribute("style","float:left;padding:10px;width:30%");
+var h1=document.createElement("h1")
+h1.innerHTML="ELECTRIC CARS: THE FUTURE ";
+article.appendChild(h1);
+s.appendChild(article);
+var h2=document.createElement("h1")
+h2.innerHTML="OF TRANSPORTATION";
+article.appendChild(h2);
+s.appendChild(article);
+var girls=document.createElement("img");
+girls.setAttribute("src","girls.jpg");
+girls.setAttribute("style","width:523px;height:201px")
+article.appendChild(girls);
+var p1=document.createElement("p");
+//p1.style.width="50%";
+p1.innerHTML="A vehicle (from Latin: vehiculum) is a machine that transports people or cargo Vehicles include ... The line originally used wooden rails and a hemp haulage rope has some background knowledge about how a car runs and the role of the battery. ELLs and ...Ivannia Soto-Hinman Compressed gas motors have been used on some vehicles experimentally. ";
+article.appendChild(p1);
+var p2=document.createElement("p");
+//p2.style.width="50%";
+p2.innerHTML="A vehicle (from Latin: vehiculum) is a machine that transports people or cargo. Vehicles include ... The line originally used wooden rails and a hemp haulage rope Compressed gas motors have been used on some vehicles experimentally.";
+article.appendChild(p2);
+s.appendChild(article);
+var author=document.createElement("pre");
+author.innerHTML="                                                         john barrey"
+article.appendChild(author);
+var table=document.createElement("table");
+var titler=table.insertRow(0);
+var titlec=titler.insertCell(0);
+titlec.setAttribute("style","padding:5px")
+var h3=document.createElement("h3");
+h3.innerHTML="MARS  IS NEAR SATURN";
+titlec.appendChild(h3);
+var h2=document.createElement("h3");
+h2.innerHTML="FIRST UNDERWATER";
+titlec.appendChild(h3);
+titlec.appendChild(h2);
+titler.appendChild(titlec);
+table.appendChild(titler);
+article.appendChild(table);
+s.appendChild(article);
+var titlec=titler.insertCell(1);
+titlec.setAttribute("style","padding:3px")
+var h3=document.createElement("h3");
+h3.innerHTML="THE TALLEST STATUE IN  ";
+titlec.appendChild(h3);
+var h2=document.createElement("h3");
+h2.innerHTML=" THE WORLD COLUMBIA ";
+titlec.appendChild(h3);
+titlec.appendChild(h2);
+titler.appendChild(titlec);
+table.appendChild(titler);
+article.appendChild(table);
+s.appendChild(article);
+var table3=document.createElement("table");
+var row=table3.insertRow(0);
+var column=row.insertCell(0);
+var news=document.createElement("img");
+news.setAttribute("src","news.jfif");
+news.setAttribute("style","width:80px;height:88px;float:left")
+column.appendChild(news);
+row.appendChild(column);
+table3.appendChild(row);
+article.appendChild(table3);
+var column=row.insertCell(1);
+column.style.width="128px";
+column.style.padding="3px";
+var p=document.createElement("p");
+p.innerHTML=" The ancient Egyptians named the planet Her Descher meaning the red one "
+column.appendChild(p);
+row.appendChild(column);
+table3.appendChild(row);
+article.appendChild(table3);
+
+var column=row.insertCell(2);
+var news=document.createElement("img");
+news.setAttribute("src","chinawall.jfif");
+news.setAttribute("style","width:85px;height:88px;float:left;margin-left:30px")
+column.appendChild(news);
+row.appendChild(column);
+table3.appendChild(row);
+article.appendChild(table3);
+var column=row.insertCell(3);
+column.style.width="128px";
+column.style.padding="5px";
+var p=document.createElement("p");
+p.innerHTML=" The ancient Egyptians named the planet Her Descher meaning the red one "
+column.appendChild(p);
+row.appendChild(column);
+table3.appendChild(row);
+article.appendChild(table3);
+
+
+var row=table3.insertRow(1);
+var column=row.insertCell(0);
+var news=document.createElement("img");
+news.setAttribute("src","food.jpeg");
+news.setAttribute("style","width:80px;height:88px;float:left")
+column.appendChild(news);
+row.appendChild(column);
+table3.appendChild(row);
+article.appendChild(table3);
+var column=row.insertCell(1);
+column.style.width="128px";
+column.style.padding="3px";
+var p=document.createElement("p");
+p.innerHTML=" The ancient Egyptians named the planet Her Descher meaning the red one "
+column.appendChild(p);
+row.appendChild(column);
+table3.appendChild(row);
+article.appendChild(table3);
+
+var column=row.insertCell(2);
+var news=document.createElement("img");
+news.setAttribute("src","foot.webp");
+news.setAttribute("style","width:85px;height:88px;float:left;margin-left:30px")
+column.appendChild(news);
+row.appendChild(column);
+table3.appendChild(row);
+article.appendChild(table3);
+var column=row.insertCell(3);
+column.style.width="128px";
+column.style.padding="5px";
+var p=document.createElement("p");
+p.innerHTML=" The ancient Egyptians named the planet Her Descher meaning the red one "
+column.appendChild(p);
+row.appendChild(column);
+table3.appendChild(row);
+article.appendChild(table3);
+table3.style.borderbottom="1px solid black";
+var d=document.createElement("div");
+var h3=document.createElement("h3")
+h3.innerHTML="TEN BOOKS TO CHECK OUT FOR NEW SYLLABUS";
+article.appendChild(h3);
+var food=document.createElement("img");
+food.src="food.jpeg";
+food.style.width="46%";
+food.style.float="left";
+food.style.height="103px"
+food.style.padding="8px"
+article.appendChild(food);
+var p2=document.createElement("p");
+p2.style.float="left";
+p2.innerHTML="textbook is a comprehensive compilation of content in a branch of studyTextbooks are produced to meet the needs of educators, usually at educational institutions.A textbook is a comprehensive compilation of content in a branch of study Textbooks are produced to meet the needs of educators, usually at educational Schoolbooks are textbooks and other books used in schools. ... ";
+article.appendChild(p2);
+var p=document.createElement("p");
+p.innerHTML="textbook is a comprehensive compilation of content to meet the needs of educatl institutions.A textbook is a comprehensive compilation of content in a branch of study Textbooks are produced to meet the needs of educators, usually at educational Schoolbooks are textbooks "
+article.appendChild(p);
+
+var aside=document.createElement("aside");
+aside.setAttribute("style","float:left;padding:10px;width:30%;margin-left:50px");
+var h3=document.createElement("h3");
+h3.innerHTML="Politics"
+aside.appendChild(h3);
+var columbia=document.createElement("img")
+columbia.src="columbia.jfif";
+columbia.style.width="40%";
+columbia.style.height="120px"
+aside.appendChild(columbia);
+var h3=document.createElement("h3");
+h3.innerHTML="A CHINESE COMPANY"
+aside.appendChild(h3);
+var h3=document.createElement("h3");
+h3.innerHTML="TO BUILD A FAKE"
+aside.appendChild(h3);
+var h3=document.createElement("h3");
+h3.innerHTML="MOON TO REPALCE "
+aside.appendChild(h3);
+s.appendChild(aside);
+var h3=document.createElement("h3");
+h3.innerHTML="THE CITY"
+aside.appendChild(h3);
+s.appendChild(aside);
+var p=document.createElement("p");
+p.innerHTML="us and chinese government systemtic views"
+aside.appendChild(p);
+var p=document.createElement("p");
+p.innerHTML="A textbook is a comprehensive compilation of content in a branch of study.Textbooks are produced to meet the needs of educators A textbook is a comprehensive compilation of content in a branch of study.Textbooks are produced to meet the needs of educators Schoolbooks are textbooks and other books used in schools. ... Flexbox is a new layout mode in CSS3."
+aside.appendChild(p);
+var p=document.createElement("p");
+p.innerHTML="A textbook is a comprehensive compilation of content in a branch ensive compilation of content in a branch "
+aside.appendChild(p);
+var bdiv=document.createElement("div");
+bdiv.style.width="100%";
+bdiv.style.padding="10px"
+bdiv.style.border="1px solid black"
+var h3=document.createElement("h3");
+h3.innerHTML="A CHINESE COMPANY"
+bdiv.appendChild(h3);
+var h3=document.createElement("h3");
+h3.innerHTML="MOON TO REPALCE "
+bdiv.appendChild(h3);
+var p=document.createElement("p");
+p.innerHTML="A textbook eet the needs of rehensive compilation of content in a branch of study.Textbooks are produced to meet the needs of educators Schoolbooks are textbooks and other books used in schools. ... Flexbox is a new layout mode in CSS3."
+bdiv.appendChild(p);
+aside.appendChild(bdiv);
+var h3=document.createElement("h3");
+h3.style.marginTop="0px"
+h3.innerHTML="A CHINESE COMPANY"
+bdiv.appendChild(h3);
+var h3=document.createElement("h3");
+h3.innerHTML="MOON TO REPALCE "
+bdiv.appendChild(h3);
+var p=document.createElement("p");
+p.innerHTML="A textbook is a comprehensivp textbook is a comprehensive compilation of content in a branch of study.Textbooks are produced to meet the needs of educators Schoolbooks are textbooks and other books used in schools. ... Flexbox is a new layout mode in CSS3."
+bdiv.appendChild(p);
+aside.appendChild(bdiv);
+var h3=document.createElement("h3");
+h3.innerHTML="A CHINESE COMPANY"
+bdiv.appendChild(h3);
+var h3=document.createElement("h3");
+h3.innerHTML="MOON TO REPALCE "
+bdiv.appendChild(h3);
+var p=document.createElement("p");
+p.innerHTML="A textbook is ant in a branch of study.Textbooks are produced to meea comprehensive branch of stude produced to meet the needs of educators Schoolbooks are textbooks and other books used in schools. ... Flexbox is a new layout mode in CSS3."
+bdiv.appendChild(p);
+aside.appendChild(bdiv);
+document.body.appendChild(s);
+var footer=document.createElement("footer");
+footer.style.marginTop="88pc";
+footer.style.backgroundColor="black";
+footer.style.color="white";
+footer.style.height="22px"
+var pre=document.createElement("pre");
+pre.innerHTML="follow us on:     facebook      twitter        instagram                     risingpeople@gmail.com";
+footer.appendChild(pre);
+
+document.body.appendChild(footer);
+
+
+
+</script>
+</body>
+
+</html>
