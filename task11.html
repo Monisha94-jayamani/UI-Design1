@@ -11,8 +11,8 @@
         header.setAttribute("style","width:100%;height:100px;background-color:whitesmoke");
         var div1=document.createElement("div");
         var google=document.createElement("img");
-        google.src="google.png";
-        google.setAttribute("style","width:221px;height:80;float:left;margin-top:-24px")
+        google.src="google2.png";
+        google.setAttribute("style","width:221px;height:80;float:left;margin-top:-8px")
         div1.appendChild(google);
         header.appendChild(div1);
         var textbox=document.createElement("input");
@@ -69,7 +69,7 @@
         bodydiv1.appendChild(heading);
         var link=document.createElement("p");
         link.setAttribute("style","color:green;line-height:6px;font-family:arial");
-        link.innerHTML="https://yoast.com > SEO blog > SEO basics"
+        link.innerHTML="https://yoast.com > SEO blog > SEO basics ▼"
          bodydiv1.appendChild(link);
          var p1=document.createElement("p");
          p1.setAttribute("style","line-height:6px;font-family:arial")
@@ -80,8 +80,19 @@
          p2.innerHTML="What does this page show? which elements do you see..."
          bodydiv1.appendChild(p2);
         document.body.appendChild(bodydiv1);
+
         var bodydiv2=document.createElement("div");
         bodydiv2.setAttribute("style","margin-left:223px")
+        var s1=document.createElement("select");
+        s1.setAttribute("style","width:520px;height:33px;color:gray")
+        var o1=document.createElement("option")
+        o1.setAttribute("value","what is the Google search Result  page?");
+        var t=document.createTextNode("People may also ask ?")
+        o1.appendChild(t);
+        s1.appendChild(o1);
+        bodydiv2.appendChild(s1);
+        var br=document.createElement("br");
+        bodydiv2.appendChild(br);
         var s1=document.createElement("select");
         s1.setAttribute("style","width:520px;height:33px")
         var o1=document.createElement("option")
@@ -130,7 +141,7 @@
         bodydiv1.appendChild(heading);
         var link=document.createElement("p");
         link.setAttribute("style","color:green;line-height:6px;font-family:arial");
-        link.innerHTML="https://en.wikepedia.org/wiki>Search_engine_results_page"
+        link.innerHTML="https://en.wikepedia.org/wiki>Search_engine_results_page ▼"
          bodydiv1.appendChild(link);
          var p1=document.createElement("p");
          p1.setAttribute("style","line-height:6px;font-family:arial")
@@ -158,7 +169,7 @@
         bodydiv1.appendChild(heading);
         var link=document.createElement("p");
         link.setAttribute("style","color:green;line-height:6px;font-family:arial");
-        link.innerHTML="https://wwww.oberlo.com Blog"
+        link.innerHTML="https://wwww.oberlo.com Blog ▼"
          bodydiv1.appendChild(link);
          var p1=document.createElement("p");
          p1.setAttribute("style","line-height:6px;font-family:arial")
@@ -182,7 +193,7 @@
         bodydiv1.appendChild(heading);
         var link=document.createElement("p");
         link.setAttribute("style","color:green;line-height:6px;font-family:arial");
-        link.innerHTML="https://ignitevisibility.com/serp"
+        link.innerHTML="https://ignitevisibility.com/serp ▼"
          bodydiv1.appendChild(link);
          var p1=document.createElement("p");
          p1.setAttribute("style","line-height:6px;font-family:arial")
