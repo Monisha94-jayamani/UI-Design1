@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body id="mybody">
+    <script>
+        var b=document.getElementById("mybody");
+        b.setAttribute("style","margin-left:100px;margin-right:100px")
+        var slant1=document.createElement("div");
+        slant1.setAttribute("style","margin:auto;width: 100%;padding:50px;height:531px;border-radius: 2px;position: relative;background: blue;padding: 20px;box-sizing: border-box")
+        document.body.appendChild(slant1);
+        var div1=document.createElement("div");
+        div1.setAttribute("style","background-color:lightgrey;height:26px;height:22px")
+        var cols3=document.createElement("div");
+        var s1=document.createElement("span");
+        s1.setAttribute("style","background-color: orange;margin-top: 2px;float:left;height: 13px;width: 13px;border-radius:50%;display: inline-block;")
+        cols3.appendChild(s1);
+        div1.appendChild(cols3);
+        slant1.appendChild(div1);
+        var s2=document.createElement("span");
+        s2.setAttribute("style","background-color:green;margin-top: 2px; float:left;height: 13px;margin-left:3px;width: 13px;border-radius:50%;display: inline-block;")
+        cols3.appendChild(s2);
+        div1.appendChild(cols3);
+        slant1.appendChild(div1);
+        var s3=document.createElement("span");
+        s3.setAttribute("style","background-color:yellow; margin-top: 2px;float:left;height: 13px;margin-left:4px;width: 13px;border-radius:50%;display: inline-block;")
+        cols3.appendChild(s3);
+        div1.appendChild(cols3);
+        slant1.appendChild(div1);
+        var input=document.createElement("input")
+        input.setAttribute("type","text");
+        input.setAttribute("placeholder"," Search our website");
+        input.setAttribute("style","outline: 1px solid black;height:12px;width:387px;margin-top: 2px;margin-left: 146px;font-family:Arial, FontAwesome")
+         div1.appendChild(input);
+         var plus=document.createElement("img")
+         plus.src="plus.png";
+         plus.setAttribute("style","float:right;width: 20px;outline: 1px solid black;margin-top:1px")
+         div1.appendChild(plus);
+         slant1.appendChild(div1);
+         var navbar=document.createElement("div");
+         navbar.setAttribute("style","overflow: hidden;background-color: blue;height:53px;")
+         var landing=document.createElement("p");
+         landing.setAttribute("style","float: left;font-size: 16px;color: white;text-align: center;padding: 14px 16px;text-decoration: none;")
+         landing.innerHTML="landing";
+         navbar.appendChild(landing);
+         var p1=document.createElement("p");
+         p1.setAttribute("style","float: right; width:90px;padding:10px")
+         var button=document.createElement("button")
+         button.setAttribute("style","background-color:blue;type:button;border:1px solid white;color:white;border-color: white;")
+         button.innerHTML="Get Started";
+         p1.appendChild(button);
+         navbar.appendChild(p1);
+         var p2=document.createElement("p");
+         p2.setAttribute("style","float:right;width:70px;color:white;padding:10px")  
+         p2.innerHTML="FAQ";navbar.appendChild(p2);
+         navbar.appendChild(p2);
+         var p3=document.createElement("p");
+         p3.setAttribute("style","float:right;width:70px;color:white;padding:10px")  
+         p3.innerHTML="Pricing";navbar.appendChild(p3);  navbar.appendChild(p3);
+         var p4=document.createElement("p");
+         p4.setAttribute("style","float:right;width:70px;color:white;padding:10px")  
+         p4.innerHTML="Reviews";navbar.appendChild(p4);  navbar.appendChild(p4);
+         var p5=document.createElement("p");
+         p5.setAttribute("style","float:right;width:70px;color:white;padding:10px")  
+         p5.innerHTML="Features";navbar.appendChild(p5);  navbar.appendChild(p5);
+         var p6=document.createElement("p");
+         p6.setAttribute("style","float:right;width:70px;color:white;padding:10px")  
+         p6.innerHTML="Home";navbar.appendChild(p6);
+         slant1.appendChild(navbar);
+         var row=document.createElement("div");
+         row.setAttribute("style","width:100%")
+         var column=document.createElement("div");
+         column.setAttribute("style","float:left;width:60%")
+         var second=document.createElement("div");
+        second.setAttribute("style","background-color:blue;padding:30px")
+           var h1=document.createElement("h1");
+           h1.innerHTML="Fly makes you"
+           second.appendChild(h1);
+           column.appendChild(second);
+           row.appendChild(column);
+           var h2=document.createElement("h1");
+           h2.innerHTML="faster"
+           second.appendChild(h2);
+           column.appendChild(second);
+           row.appendChild(column);
+           var p0=document.createElement("p");
+           p0.innerHTML="New free template by uicookies.com.For more";
+           second.appendChild(p0);
+           column.appendChild(second);
+           row.appendChild(column);
+           var p1=document.createElement("p");
+           p1.innerHTML="templates visit the site.Lorem ipsum dolor sit amet"
+           second.appendChild(p1);
+           column.appendChild(second);
+           row.appendChild(column);
+           var p2=document.createElement("p");
+           p2.innerHTML="consectetur adipisicing elit"
+           second.appendChild(p2);
+           column.appendChild(second);
+           row.appendChild(column);
+           var br=document.createElement("br");
+           second.appendChild(br);
+           column.appendChild(second);
+           var button2=document.createElement("button");
+           button2.setAttribute("style","  border-radius: 25px;background: #73AD21;padding: 0px;width: 138px;height: 23px;border: 1px solid green;color:white;")
+           button2.innerHTML="SEE PRICING"
+           second.appendChild(button2);
+           column.appendChild(second);
+           row.appendChild(column);
+             
+
+           var column2=document.createElement("div");
+           column2.setAttribute("style","background-color:white;width:30%;float: left;padding:0px;background-color:white;")
+
+           var third=document.createElement("div")
+           third.setAttribute("style"," padding-top: 0px;padding-left: 30px;text-align: center;")
+           var h2=document.createElement("h2");
+            h2.innerHTML="Sign Up for Free"
+            third.appendChild(h2);
+            column2.appendChild(third);
+            row.appendChild(column2);
+            var input1=document.createElement("input");
+                input1.setAttribute("type","text");input1.setAttribute("placeholder","Full name")
+                input1.setAttribute("style","width:80%;height:25px;background-color:lightgrey;color:black")
+                third.appendChild(input1);
+                column2.appendChild(third);
+                row.appendChild(column2);
+                var br1=document.createElement("br");
+                third.appendChild(br1);
+                var br2=document.createElement("br");
+                third.appendChild(br2);
+                column2.appendChild(third);
+                row.appendChild(column2);
+                var input2=document.createElement("input");
+                input2.setAttribute("type","text");input2.setAttribute("placeholder","Email")
+                input2.setAttribute("style","width:80%;height:25px;background-color:lightgrey;color:black")
+                third.appendChild(input2);
+                column2.appendChild(third);
+                row.appendChild(column2);
+                var br=document.createElement("br");
+                third.appendChild(br);
+                var br2=document.createElement("br");
+                third.appendChild(br2);
+                column2.appendChild(third);
+                row.appendChild(column2);
+                var input3=document.createElement("input");
+                input3.setAttribute("type","text");input3.setAttribute("placeholder","Email")
+                input3.setAttribute("style","width:80%;height:25px;background-color:lightgrey;color:black")
+                third.appendChild(input3);
+                column2.appendChild(third);
+                row.appendChild(column2);
+                var br=document.createElement("br");
+                third.appendChild(br);   var br2=document.createElement("br");
+                third.appendChild(br2);
+                column2.appendChild(third);
+                row.appendChild(column2);
+
+                var s1=document.createElement("select");
+                s1.setAttribute("style","width:80%; height:28px; background-color: lightgrey;color:black;")
+                var o1=document.createElement("option")
+                o1.setAttribute("value","volvo");
+                var t=document.createTextNode("Type")
+                o1.appendChild(t);
+                s1.appendChild(o1);
+                third.appendChild(s1);
+                var br=document.createElement("br");
+                third.appendChild(br);   var br2=document.createElement("br");
+                third.appendChild(br2);
+                column2.appendChild(third);
+                row.appendChild(column2);
+                var register=document.createElement("button");
+                register.setAttribute("style","border-radius: 25px;width:80;background: blue;padding: 0px;width: 138px;height: 23pxborder: 1px solid blue;color:white");
+              register.innerHTML="REGISTER";
+              third.appendChild(register);
+              var br=document.createElement("br");
+                third.appendChild(br);   var br2=document.createElement("br");
+                third.appendChild(br2);
+                column2.appendChild(third);
+                row.appendChild(column2);
+
+         
+         slant1.appendChild(row);
+
+            
+        
+      
+        var slant2=document.createElement("div");
+        slant2.setAttribute("style","margin:-20px;width: 101%;height:520px;border-radius: 2px;background: whitesmoke;box-sizing: border-box;clip-path: polygon(0 10%,100% 0vw,100% 100%,0 100%);background-image: linear-gradient(blue); margin-top:-160px; margin-left:-5px;margin-right:47px")
+      
+        var br=document.createElement("br");
+               slant2.appendChild(br);
+               var br=document.createElement("br");
+               slant2.appendChild(br);
+      var p=document.createElement("p");
+     p.setAttribute("style","margin-top: 346px;margin-left: 600px;color:gray")
+     
+       p.innerHTML="features";
+     
+      
+      slant2.appendChild(p);
+      var h2=document.createElement("h2");
+      h2.setAttribute("style","margin-left:550px;color:gray")
+     // h2.setAttribute("style","text-align:center;margin-top: 360px;color:gray")
+      h2.innerHTML="App Features"
+      slant2.appendChild(h2);
+        document.body.appendChild(slant2);
+
+</script>
+</body>
+</html>
